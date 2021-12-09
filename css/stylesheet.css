@@ -84,14 +84,17 @@ a {
     height: 160px;
     background-image: url(../img/dogo-wearing.jpg);
     background-size: cover;
-    background-position: 50% 35%
+    background-position: 50% 35%;
+    margin-bottom: 50px;
 }
 
 .sign-up {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 4px 16px;
+    padding: 8px 25px;
     margin-top: 10px;
+    border: 2px solid #1f2937;
+    border-radius: 8px;
 
 }
 
@@ -99,6 +102,7 @@ a {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
+    margin-top: 30px;
 }
 
 .container {
@@ -113,6 +117,7 @@ a {
 .info {
     max-width: 200px;
 }
+
 .container-one {
     display: flex;
     min-height: 250px;
@@ -120,16 +125,19 @@ a {
     justify-content: center;
     background-color: #e5e7eb;
 }
+
 .source-of-quote {
     align-self: flex-end;
     margin-right: 100px;
     padding-bottom: 70px;
     font-weight: bolder;
 }
+
 .quote {
     font-size: 36px;
     font-weight: light italic;
 }
+
 .container-two {
     min-height: 250px;
     display: flex;
@@ -143,6 +151,8 @@ a {
     align-items: center;
     background-color: #3882f6;
     min-width: 800px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 .sign-up1 {
     margin-left: 200px;
@@ -150,5 +160,11 @@ a {
     color: #f9faf8;
     padding: 4px 16px;
     margin-top: 10px;
-    border-radius: 2px
+    border: 2px solid white;
+    border-radius: 8px;
+}
+img {
+    border: 6px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
