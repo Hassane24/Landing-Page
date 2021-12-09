@@ -1,170 +1,168 @@
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    font-family: Hero Light, sans-serif;
-    height: 1000px;
-    justify-content: stretch;
-
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Hero Light, sans-serif;
+  height: 1000px;
+  justify-content: stretch;
 }
 
 .section1 {
-    background-color: #1f2937;
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-} 
+  background-color: #1f2937;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
 
 .footer {
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 50px;
-    padding: 8px 16px;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  padding: 8px 16px;
 }
 
 .logo {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .header-logo {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Hero, sans-serif;
-    font-size: 24px;
-    color: #f9faf8;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Hero, sans-serif;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 ul {
-    display: flex;
-    margin: 0 auto;
-    padding: 0 16px;
-    list-style-type: none; 
+  display: flex;
+  margin: 0 auto;
+  padding: 0 16px;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
-    margin-left: 16px;   
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-left: 16px;
 }
 
-.column  {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 110px; 
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 110px;
 }
 
 .awesometext {
-    font-family: Hero, sans-serif;
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  font-family: Hero, sans-serif;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 .about-dogo {
-    font-family: Hero,sans-serif;
-    color: #f9faf8;
-    font-size: 18px;
-    margin-top: 10px;
+  font-family: Hero, sans-serif;
+  color: #f9faf8;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .websiteawesome-container {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
 }
 
 .image {
-    width: 320px;
-    height: 160px;
-    background-image: url(../img/dogo-wearing.jpg);
-    background-size: cover;
-    background-position: 50% 35%;
-    margin-bottom: 50px;
+  width: 320px;
+  height: 160px;
+  background-image: url(../img/dogo-wearing.jpg);
+  background-size: cover;
+  background-position: 50% 35%;
+  margin-bottom: 50px;
 }
 
 .sign-up {
-    background-color: #3882f6;
-    color: #f9faf8;
-    padding: 8px 25px;
-    margin-top: 10px;
-    border: 2px solid #1f2937;
-    border-radius: 8px;
-
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 25px;
+  margin-top: 10px;
+  border: 2px solid #1f2937;
+  border-radius: 8px;
 }
 
 .glory-dogo {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bolder;
-    margin-top: 30px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-top: 30px;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin-top: 30px; 
-    min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+  min-height: 300px;
 }
 
 .info {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .container-one {
-    display: flex;
-    min-height: 250px;
-    align-items: center;
-    justify-content: center;
-    background-color: #e5e7eb;
+  display: flex;
+  min-height: 250px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
 }
 
 .source-of-quote {
-    align-self: flex-end;
-    margin-right: 100px;
-    padding-bottom: 70px;
-    font-weight: bolder;
+  align-self: flex-end;
+  margin-right: 100px;
+  padding-bottom: 70px;
+  font-weight: bolder;
 }
 
 .quote {
-    font-size: 36px;
-    font-weight: light italic;
+  font-size: 36px;
+  font-weight: light italic;
 }
 
 .container-two {
-    min-height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .call-container {
-    display: flex;
-    justify-content: center;
-    min-height: 100px;
-    align-items: center;
-    background-color: #3882f6;
-    min-width: 800px;
-    border: 2px solid white;
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  align-items: center;
+  background-color: #3882f6;
+  min-width: 800px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 .sign-up1 {
-    margin-left: 200px;
-    background-color: #3882f6;
-    color: #f9faf8;
-    padding: 4px 16px;
-    margin-top: 10px;
-    border: 2px solid white;
-    border-radius: 8px;
+  margin-left: 200px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 4px 16px;
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 8px;
 }
 img {
-    border: 6px solid #3882f6;
-    border-radius: 10px;
-    margin-bottom: 5px;
+  border: 6px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
